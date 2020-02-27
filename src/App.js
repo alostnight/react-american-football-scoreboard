@@ -21,7 +21,7 @@ function App() {
               <span>{lionsTotal}</span>
             </div>
           </div>
-          <div className="timer">00:03</div>
+          <div className="timer">15:00</div>
           <div className="away">
             <h2 className="away__name">Tigers</h2>
             <div className="away__score">
@@ -36,7 +36,7 @@ function App() {
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
           <button
             onClick={() => {
-              setTotal(lionsTotal + 6);
+              setTotal(lionsTotal + 7);
             }}
             className="homeButtons__touchdown"
           >
