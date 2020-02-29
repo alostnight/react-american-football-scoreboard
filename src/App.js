@@ -54,7 +54,7 @@ function App() {
         <div className="awayButtons">
           <button
             onClick={() => {
-              setTotalTwo(tigersTotal + 6);
+              setTotalTwo(tigersTotal + 7);
             }}
             className="awayButtons__touchdown"
           >
